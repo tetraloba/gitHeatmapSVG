@@ -1,0 +1,4 @@
+ver0.0.0
+    createHeatmap.bash及びcreateHeatmap.cppの作成。
+    createHeatmap.bashはgit logから日毎のコミット数を集計してtmpファイルを作成し、createHeatmap.cppを呼び出す。
+    createHeatmap.cppはtmpファイルの内容を読み出し、整形してheatmap.svgファイルに書き出すところまで書いた。
