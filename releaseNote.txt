@@ -1,4 +1,9 @@
 ver0.0.0
     createHeatmap.bash及びcreateHeatmap.cppの作成。
     createHeatmap.bashはgit logから日毎のコミット数を集計してtmpファイルを作成し、createHeatmap.cppを呼び出す。
-    createHeatmap.cppはtmpファイルの内容を読み出し、整形してheatmap.svgファイルに書き出すところまで書いた。
+    createHeatmap.cppはtmpファイルの内容を読み出し、整形してheatmap.svgファイルに書き出すところまで記述。
+ver0.1.0
+    自作のSVGライブラリ(SVG.cpp, SVG.h)を用意し、heatmap.svgをSVGファイルにした。
+    それに伴い、SVGライブラリとリンクしてコンパイルするためのmake.bashを作成。
+    heatmap.svgに書き出したデータリストの最後にゴミが出てしまう不具合を修正。
+    tmpファイルの内容を、実行した日を含む53週分の配列に格納するところまで実装。
