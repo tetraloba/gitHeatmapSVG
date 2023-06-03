@@ -13,7 +13,7 @@ void finish(ofstream& fout){
     return;
 }
 void text(Pos pos, string str, RGB rgb, uint size, ofstream& fout){
-    fout << "<text x=\"" << pos.x << "\" y=\"" << pos.y << "\" font-family=\"Shift-JIS\" font-size=\"" << size << "\" stroke=\"none\" fill=\"#" << hex << setw(2) << rgb.r << setw(2) << rgb.g << setw(2) << rgb.b << dec << "\">\n  " << str << "\n</text>" << endl;
+    fout << "<text x=\"" << pos.x << "\" y=\"" << pos.y << "\" font-family=\"monospace\" font-size=\"" << size << "\" stroke=\"none\" fill=\"#" << hex << setw(2) << rgb.r << setw(2) << rgb.g << setw(2) << rgb.b << dec << "\">\n  " << str << "\n</text>" << endl;
     return;
 }
 void circle(Pos pos1, Pos pos2, RGB rgb, ofstream& fout){
