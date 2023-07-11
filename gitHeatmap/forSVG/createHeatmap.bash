@@ -1,6 +1,6 @@
 #!/bin/bash
 
-scriptDir="/home/tetraloba/projects/gitHeatmapSVG/"
+scriptDir="/home/tetraloba/projects/gitHeatmapSVG/gitHeatmap/forSVG"
 tmpPath=${scriptDir}"tmp";
 # echo $tmpPath; # debug
 
