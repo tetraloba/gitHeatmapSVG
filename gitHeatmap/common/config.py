@@ -1,3 +1,3 @@
 settings = {
-    'path': '/home/tetraloba/projects/calendarSVG',
+    'path': '/home/tetraloba/KagawaU',
     }
